@@ -6,4 +6,4 @@ function greet(name) {
 console.log (greet("John"));
 //assert.equal(greet("John"),"helloJohn");
 
-module.exports = greet();
+module.exports = greet;
