@@ -1,9 +1,10 @@
+
+
 //const assert = require ("assert");
-function greet(name) {
+var greet=function greet(name) {
     return ("hello" + name);
 }
 
 console.log (greet("John"));
 //assert.equal(greet("John"),"helloJohn");
-
-module.exports = greet;
+module.exports=greet;
